@@ -2,8 +2,6 @@ package java_level_2;
 
 import java.util.Scanner;
 
-import Day2Assignment.Student;
-
 public class StudentInformation {
 	public static Scanner sc = new Scanner(System.in);
 	static int choice = 1;
