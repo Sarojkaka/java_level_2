@@ -1,0 +1,20 @@
+package java_level_2;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class nPoweredNumber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[] number = { 256, 1, 2, 3, 4, 5, 6, 7, 512, 8, 9, 10, 16, 32, 64, 128 };
+		for (int i = 0; i < number.length; i++) {
+			for (int j = 1; j < number[i]; j++)
+				
+				if (number[i] == Math.pow(2, j)) {
+
+					System.out.println(number[i]);
+				}
+
+		}
+	}
+}
