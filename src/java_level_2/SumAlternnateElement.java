@@ -2,13 +2,15 @@ package java_level_2;
 import java.util.Arrays;
 
 public class SumAlternnateElement {
+	
+	public static int sum,sum1 = 0;
 
 	public static void main(String[] args) {
-
-		int[] num = { 1, 2, 3, 4, 5, 6,7 };
+		
+		int num[] = { 1, 2, 3, 4, 5, 6,7 };
 		System.out.println("Elements of the array are : " + Arrays.toString(num));
-		int sum = 0;
-		int sum1 = 0;
+		
+		//using for loop
 		for (int i = 0; i < num.length; i = i + 2) {
 			sum = sum + num[i];
 		}
@@ -30,4 +32,3 @@ public class SumAlternnateElement {
 	}
 
 }
-
